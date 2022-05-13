@@ -1,0 +1,18 @@
+channels:
+- conda-forge
+dependencies:
+- python
+- pyiron
+- pyiron_base
+- lammps
+- iprpy-data
+- gpaw
+- sphinxdft >=2.7.0
+- sphinxdft-data
+- nglview
+- seaborn
+- pyscal
+- jupyterlab
+- pyiron-data >=0.0.5
+- sqsgenerator
+- pymatgen
