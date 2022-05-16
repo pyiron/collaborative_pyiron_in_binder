@@ -1,3 +1,5 @@
+sest -ex
+
 # pip install master
 pip install .
 
