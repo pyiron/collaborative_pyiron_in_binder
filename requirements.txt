@@ -22,3 +22,16 @@ gower==0.0.5
 scikit-learn
 plotnine
 umap-learn
+# pyiron
+pyiron
+pyiron_base
+lammps
+iprpy-data
+gpaw
+sphinxdft>=2.7.0
+sphinxdft-data
+seaborn
+pyscal
+pyiron-data>=0.0.5
+sqsgenerator
+pymatgen
