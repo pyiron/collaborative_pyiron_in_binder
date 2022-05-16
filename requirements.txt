@@ -28,8 +28,8 @@ pyiron_base
 #lammps
 #iprpy-data
 gpaw
-sphinxdft
-sphinxdft-data
+#sphinxdft>=2.7.0
+#sphinxdft-data
 seaborn
 pyscal
 pyiron-data>=0.0.5
