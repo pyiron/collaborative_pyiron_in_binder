@@ -32,6 +32,6 @@ gpaw
 #sphinxdft-data
 seaborn
 pyscal
-pyiron-data>=0.0.5
+#pyiron-data>=0.0.5
 sqsgenerator
 pymatgen
