@@ -10,7 +10,7 @@ dependencies:
 - gpaw
 - sphinxdft >=2.7.0
 - sphinxdft-data
-#- nglview
+- nglview
 - seaborn
 - pyscal
 - jupyterlab==v3.2.2
