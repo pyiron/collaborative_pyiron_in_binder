@@ -25,7 +25,7 @@ umap-learn
 # pyiron
 pyiron
 pyiron_base
-lammps
+#lammps
 iprpy-data
 gpaw
 sphinxdft>=2.7.0
