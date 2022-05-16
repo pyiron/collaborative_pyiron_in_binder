@@ -33,5 +33,5 @@ gpaw
 seaborn
 pyscal
 #pyiron-data>=0.0.5
-sqsgenerator
+#sqsgenerator
 pymatgen
