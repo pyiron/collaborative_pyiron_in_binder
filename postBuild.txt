@@ -1,4 +1,4 @@
-sest -ex
+set -ex
 
 # pip install master
 pip install .
