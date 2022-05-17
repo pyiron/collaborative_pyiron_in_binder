@@ -1,4 +1,4 @@
-# pyiron_in_binder
+# collaborative_pyiron_in_binder
 
 You can [use this repository as it is](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fvistock%2Fpyiron_in_binder/HEAD) or fork it, for example specifying the environment.
 
