@@ -1,5 +1,4 @@
 #!/bin/bash
-cd pyiron
 for ds in $(ls calculation/*.tar.gz); do 
     cp ${ds} .
     cp calculation/export.csv .
