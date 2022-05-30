@@ -29,3 +29,20 @@ The following packages are specified in the [environment.yml](https://gitlab.mpc
 - pylint (higher or equal 2.5.0)
 - yapf
 - rope (higher or equal 0.10.5)
+
+## importing and exporting existing projects
+The *import of existing projects* is done autmatically with the shell script [`import_dataset.sh`](import_dataset.sh), under the assumption, there exist exported projects in the `calculation` folder.
+
+The *export of created projects* can be done with the following commands in the notebook:
+
+```python
+from pyiron_atomistics import Project
+pr = Project("my_calculation")
+job = pr.create.job.Lammps(job_name="my_job")
+job.structure = pr.create.structure.ase.bulk("my_element")
+job.run()
+pr.pack(destination_path="save")
+```
+
+*Please replace the project name, job name and the element with meaningful Strings.*
+
