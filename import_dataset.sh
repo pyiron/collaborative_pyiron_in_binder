@@ -7,6 +7,6 @@ for ds in $(ls *.tar.gz); do
 from pyiron_base import Project
 Project("calculation").unpack("${file}")
 EOF
-    rm $(basename ${ds})
-    rm export.csv
+#    rm $(basename ${ds})
+#    rm export.csv
 done
