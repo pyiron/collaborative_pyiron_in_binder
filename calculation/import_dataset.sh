@@ -1,7 +1,7 @@
 #!/bin/bash
-for ds in $(ls calculation/*.tar.gz); do 
+for ds in $(ls *.tar.gz); do 
     cp ${ds} .
-    cp calculation/export.csv .
+    cp export.csv .
     file=$(basename ${ds} .tar.gz)
     python << EOF
 from pyiron_base import Project
