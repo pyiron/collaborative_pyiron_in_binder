@@ -1,12 +1,13 @@
 #!/bin/bash
-for ds in $(ls *.tar.gz); do 
+for ds in $(ls calculation/*.tar.gz); do 
     cp ${ds} .
-    cp export.csv .
+    cp calculation/export.csv .
     file=$(basename ${ds} .tar.gz)
-    python << EOF
+    echo "${file}"
+    python << 'EOF'
 from pyiron_base import Project
-Project("calculation").unpack("${file}")
+Project("temp").unpack("saved_job")
 EOF
-#    rm $(basename ${ds})
-#    rm export.csv
+    rm $(basename ${ds})
+    rm export.csv
 done
