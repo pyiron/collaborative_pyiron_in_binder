@@ -6,7 +6,7 @@ for ds in $(ls calculation/*.tar.gz); do
     echo "${file}"
     python << 'EOF'
 from pyiron_base import Project
-Project("temp").unpack("saved_job")
+Project("calculation").unpack("saved_job")
 EOF
     rm $(basename ${ds})
     rm export.csv
