@@ -1,6 +1,6 @@
 # collaborative_pyiron_in_binder
 
-You can [use this repository as it is]() or fork it and/or use a separate binder instance.
+You can [use this repository as it is](https://mybinder.org/v2/gh/pyiron/collaborative_pyiron_in_binder/HEAD) or fork it and/or use a separate binder instance.
 
 ## Instructions
 
