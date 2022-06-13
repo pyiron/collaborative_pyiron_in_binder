@@ -1,27 +1,26 @@
 # collaborative_pyiron_in_binder
 
-You can [use this repository as it is](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2Fcollaborative_pyiron_in_binder/HEAD) or fork it, for example for specifying the environment and use it with [the binder MPCDF resources](https://notebooks.mpcdf.mpg.de/binder/).
+You can use this repository as it is or fork it.
 
 ## Instructions
 
-![gitlab repo URL](figs/gitlab_repo.png)
+![github repo URL](figs/github_repo.png)
 
 1. the **URL** of the gitlab repository, **without the branch** (required)
 1. the **branch** (required for branches except the "main" branch)
 1. you can **copy** the created link, if you want to **reuse this repository**
 1. click on **launch** to create the instance
 
-![binder interface](figs/binder_gitlab_mpcdf.png)
+![binder interface](figs/binder_github_mpcdf.png)
 
 ## environment specifications
-The following packages are specified in the [environment.yml](https://gitlab.mpcdf.mpg.de/vistock/pyiron_in_binder/-/blob/main/environment.yml):
+The following packages are specified in the [environment.yml](https://github.com/pyiron/collaborative_pyiron_in_binder/blob/import_export_projects/environment.yml):
 
 - jupyterlab
 - pyiron
 - pyiron_base
 - lammps
 - iprpy-data
-- gpaw
 - sphinxdft (higher or equal 2.7.0)
 - sphinxdft-data
 - nglview
