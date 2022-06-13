@@ -1,6 +1,6 @@
 # collaborative_pyiron_in_binder
 
-You can use this repository as it is or fork it.
+You can [use this repository as it is]() or fork it and/or use a separate binder instance.
 
 ## Instructions
 
