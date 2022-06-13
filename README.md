@@ -11,7 +11,7 @@ You can [use this repository as it is](https://mybinder.org/v2/gh/pyiron/collabo
 1. you can **copy** the created link, if you want to **reuse this repository**
 1. click on **launch** to create the instance
 
-![binder interface](figs/binder_github_mpcdf.png)
+![binder interface](figs/binder_github.png)
 
 ## environment specifications
 The following packages are specified in the [environment.yml](https://github.com/pyiron/collaborative_pyiron_in_binder/blob/import_export_projects/environment.yml):
