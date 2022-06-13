@@ -10,7 +10,6 @@ The following packages are specified in the [environment.yml](https://gitlab.mpc
 - pyiron_base
 - lammps
 - iprpy-data
-- gpaw
 - sphinxdft (higher or equal 2.7.0)
 - sphinxdft-data
 - nglview
