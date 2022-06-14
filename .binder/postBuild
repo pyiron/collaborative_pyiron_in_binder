@@ -1,0 +1,13 @@
+echo start postBuild.txt >> log.txt
+
+set -ex
+
+# pip install master
+#pip install . >> log.txt
+
+# ngl view for jupyter lab
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build >> log.txt
+#jupyter labextension install nglview-js-widgets --minimize=False >> log.txt
+
+# import dataset
+bash /home/jovyan/.binder/import_dataset.sh >> log.txt
