@@ -8,7 +8,7 @@ dependencies:
 - pyiron_base
 - lammps
 - iprpy-data
-- gpaw
+#- gpaw
 - sphinxdft >=2.7.0
 - sphinxdft-data
 - nglview
