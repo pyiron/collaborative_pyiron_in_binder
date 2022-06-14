@@ -1,6 +1,8 @@
 # collaborative_pyiron_in_binder
 
-You can [use this repository as it is](https://mybinder.org/v2/gh/pyiron/collaborative_pyiron_in_binder/HEAD) or fork it and/or use a separate binder instance.
+You can use this repository as it is by clicking on the binder button below (at [mybinder.org](https://mybinder.org/)) or fork it and/or use it in another binder environment.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyiron/collaborative_pyiron_in_binder/HEAD)
 
 ## Instructions
 
@@ -14,7 +16,7 @@ You can [use this repository as it is](https://mybinder.org/v2/gh/pyiron/collabo
 ![binder interface](figs/binder_github.png)
 
 ## environment specifications
-The following packages are specified in the [environment.yml](https://github.com/pyiron/collaborative_pyiron_in_binder/blob/import_export_projects/environment.yml):
+The following packages are specified in the [environment.yml](.binder/environment.yml):
 
 - jupyterlab
 - pyiron
@@ -41,7 +43,7 @@ The following packages are specified in the [environment.yml](https://github.com
 - rope (higher or equal 0.10.5)
 
 ## importing and exporting existing projects
-The *import of existing projects* is done autmatically with the shell script [`import_dataset.sh`](import_dataset.sh), under the assumption, there exist exported projects in the `calculation` folder.
+The *import of existing projects* is done autmatically with the shell script [`import_dataset.sh`](.binder/import_dataset.sh), under the assumption, there exist exported projects in the `calculation` folder.
 
 The *export of created projects* can be done with the following commands in the notebook:
 
